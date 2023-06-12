@@ -1,5 +1,4 @@
 import { useSelector, useDispatch } from "react-redux";
-// import { toggleTodo } from "../../redux/actions/todoActions";
 import {action, todoSelector} from "../../redux/reducers/todoReducer"
 
 import "./ToDoList.css";
@@ -8,7 +7,6 @@ function ToDoList() {
 
   const todos=useSelector(todoSelector);
   const disptach = useDispatch();
-  // const todos= store.getState().todos;
 
   return (
     <div className="container">

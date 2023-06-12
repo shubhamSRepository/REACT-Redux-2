@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-// import {addTodo} from "../../redux/actions/todoActions";
 import {action} from "../../redux/reducers/todoReducer"
 
 import "./ToDoForm.css";
