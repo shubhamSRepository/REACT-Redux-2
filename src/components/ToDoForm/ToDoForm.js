@@ -30,7 +30,6 @@ function ToDoForm() {
         <div className="alert alert-success" role="alert">
           {message}
         </div>
-
       }
       <form onSubmit={handleSubmit}>
         <input
